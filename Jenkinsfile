@@ -16,7 +16,7 @@ pipeline {
 				stage ('mkdir') {
 				
 								steps {
-											echo "Creating folder test"
+											echo "Creating folder zakas"
 											sh "mkdir jio"
 								}
 				}
