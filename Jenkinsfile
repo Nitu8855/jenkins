@@ -5,7 +5,7 @@ pipeline {
 				label {
 							
 						label 'built-in'
-						customWorkspace '/mnt/pipeline2'
+						customWorkspace '/mnt/pipeline25'
 				
 				}
 	
@@ -17,7 +17,8 @@ pipeline {
 				
 								steps {
 											echo "Creating folder zakas"
-											sh "mkdir jio"
+											sh "mkdir ji"
+									                sh "touch 1 2 3"
 								}
 				}
 	
