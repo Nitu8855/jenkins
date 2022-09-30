@@ -16,9 +16,9 @@ pipeline {
 				stage ('mkdir') {
 				
 								steps {
-											echo "Creating folder zakas"
+											echo "Creating folder za"
 											sh "mkdir ji"
-									                sh "touch 1 2 3"
+									                sh "touch 4 8 3"
 								}
 				}
 	
